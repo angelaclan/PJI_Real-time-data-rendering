@@ -33,10 +33,10 @@ and modify the sketch file, use this ipv6 as the first param in send()
 
 #### Hardware setting
 ![alt text](https://github.com/angelaclan/
-PJI_Real-time-data-rendering /ldr_sensor/ldr_sensor.jpg?raw=true)
+PJI_Real-time-data-rendering/blob/master/ldr_sensor.jpg?raw=true)
 
 #### Result on Pharo Image
 ![alt text](https://github.com/angelaclan/
-PJI_Real-time-data-rendering /ldr_sensor/valueToPhato.png?raw=true)
+PJI_Real-time-data-rendering/blob/mastervalueToPhato.png?raw=true)
 
 
