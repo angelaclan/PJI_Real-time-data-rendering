@@ -1,6 +1,6 @@
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/evtimer/evtimer.o: \
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/evtimer/evtimer.o: \
  /home/angela/riot_workplace/RIOT/sys/evtimer/evtimer.c \
- /home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
+ /home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
  /home/angela/riot_workplace/RIOT/sys/include/div.h \
  /home/angela/riot_workplace/RIOT/core/include/assert.h \
  /home/angela/riot_workplace/RIOT/core/include/panic.h \
@@ -71,7 +71,7 @@
  /home/angela/riot_workplace/RIOT/drivers/include/periph/timer.h \
  /home/angela/riot_workplace/RIOT/core/include/debug.h
 
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
 
 /home/angela/riot_workplace/RIOT/sys/include/div.h:
 

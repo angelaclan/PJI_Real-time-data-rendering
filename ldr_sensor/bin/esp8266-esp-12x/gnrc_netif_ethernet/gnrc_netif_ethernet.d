@@ -1,6 +1,6 @@
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/gnrc_netif_ethernet/gnrc_netif_ethernet.o: \
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/gnrc_netif_ethernet/gnrc_netif_ethernet.o: \
  /home/angela/riot_workplace/RIOT/sys/net/gnrc/netif/ethernet/gnrc_netif_ethernet.c \
- /home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
+ /home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
  /home/angela/riot_workplace/RIOT/core/include/assert.h \
  /home/angela/riot_workplace/RIOT/core/include/panic.h \
  /home/angela/riot_workplace/RIOT/core/include/kernel_defines.h \
@@ -120,7 +120,7 @@
  /home/angela/riot_workplace/RIOT/sys/include/net/inet_csum.h \
  /home/angela/riot_workplace/RIOT/core/include/debug.h
 
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
 
 /home/angela/riot_workplace/RIOT/core/include/assert.h:
 

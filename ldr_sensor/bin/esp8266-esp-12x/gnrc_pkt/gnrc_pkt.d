@@ -1,6 +1,6 @@
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/gnrc_pkt/gnrc_pkt.o: \
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/gnrc_pkt/gnrc_pkt.o: \
  /home/angela/riot_workplace/RIOT/sys/net/gnrc/pkt/gnrc_pkt.c \
- /home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
+ /home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
  /home/angela/riot_workplace/RIOT/sys/include/net/gnrc/pkt.h \
  /home/angela/riot_workplace/esp/xtensa-esp8266-elf/xtensa-esp8266-elf/include/inttypes.h \
  /home/angela/riot_workplace/esp/xtensa-esp8266-elf/xtensa-esp8266-elf/include/newlib.h \
@@ -33,7 +33,7 @@
  /home/angela/riot_workplace/RIOT/sys/include/net/protnum.h \
  /home/angela/riot_workplace/RIOT/core/include/list.h
 
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
 
 /home/angela/riot_workplace/RIOT/sys/include/net/gnrc/pkt.h:
 

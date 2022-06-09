@@ -1,6 +1,6 @@
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/gnrc_rpl/gnrc_rpl_auto_init.o: \
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/gnrc_rpl/gnrc_rpl_auto_init.o: \
  /home/angela/riot_workplace/RIOT/sys/net/gnrc/routing/rpl/gnrc_rpl_auto_init.c \
- /home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
+ /home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
  /home/angela/riot_workplace/RIOT/core/include/log.h \
  /home/angela/riot_workplace/RIOT/cpu/esp_common/include/log_module.h \
  /home/angela/riot_workplace/esp/xtensa-esp8266-elf/xtensa-esp8266-elf/include/stdio.h \
@@ -147,7 +147,7 @@
  /home/angela/riot_workplace/RIOT/sys/include/xtimer.h \
  /home/angela/riot_workplace/RIOT/core/include/debug.h
 
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
 
 /home/angela/riot_workplace/RIOT/core/include/log.h:
 

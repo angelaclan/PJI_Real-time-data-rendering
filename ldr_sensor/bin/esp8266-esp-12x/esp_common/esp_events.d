@@ -1,6 +1,6 @@
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/esp_common/esp_events.o: \
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/esp_common/esp_events.o: \
  /home/angela/riot_workplace/RIOT/cpu/esp_common/esp_events.c \
- /home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
+ /home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
  /home/angela/riot_workplace/RIOT/core/include/debug.h \
  /home/angela/riot_workplace/esp/xtensa-esp8266-elf/xtensa-esp8266-elf/include/stdio.h \
  /home/angela/riot_workplace/esp/xtensa-esp8266-elf/xtensa-esp8266-elf/include/_ansi.h \
@@ -67,7 +67,7 @@
  /home/angela/riot_workplace/RIOT/core/include/sched.h \
  /home/angela/riot_workplace/RIOT/core/include/thread.h
 
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
 
 /home/angela/riot_workplace/RIOT/core/include/debug.h:
 

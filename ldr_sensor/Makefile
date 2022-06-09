@@ -1,12 +1,5 @@
-#script :
-#Build and excute for ldr_sensor :
-#make
-#CFLAGS='-DESP_WIFI_SSID=\"An\" -DESP_WIFI_PASS=\"87881942\" -DESP_WIFI_MAX_CONN=2'  make flash
-#make term
-
-
 # name of your application
-APPLICATION = hello-world
+APPLICATION = ldr_sensor
 
 # If no BOARD is found in the environment, use this default:
 BOARD ?= esp8266-esp-12x

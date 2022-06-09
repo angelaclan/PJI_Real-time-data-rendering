@@ -1,6 +1,6 @@
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/gnrc_pktbuf_static/gnrc_pktbuf_static.o: \
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/gnrc_pktbuf_static/gnrc_pktbuf_static.o: \
  /home/angela/riot_workplace/RIOT/sys/net/gnrc/pktbuf_static/gnrc_pktbuf_static.c \
- /home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
+ /home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
  /home/angela/riot_workplace/RIOT/core/include/assert.h \
  /home/angela/riot_workplace/RIOT/core/include/panic.h \
  /home/angela/riot_workplace/RIOT/core/include/kernel_defines.h \
@@ -62,7 +62,7 @@
  /home/angela/riot_workplace/RIOT/core/include/thread.h \
  /home/angela/riot_workplace/RIOT/core/include/debug.h
 
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
 
 /home/angela/riot_workplace/RIOT/core/include/assert.h:
 

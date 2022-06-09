@@ -1,6 +1,6 @@
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/esp_common_periph/uart.o: \
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/esp_common_periph/uart.o: \
  /home/angela/riot_workplace/RIOT/cpu/esp_common/periph/uart.c \
- /home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
+ /home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
  /home/angela/riot_workplace/RIOT/core/include/assert.h \
  /home/angela/riot_workplace/RIOT/core/include/panic.h \
  /home/angela/riot_workplace/RIOT/core/include/kernel_defines.h \
@@ -81,7 +81,7 @@
  /home/angela/riot_workplace/RIOT/core/include/thread.h \
  /home/angela/riot_workplace/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/uart_struct.h
 
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
 
 /home/angela/riot_workplace/RIOT/core/include/assert.h:
 

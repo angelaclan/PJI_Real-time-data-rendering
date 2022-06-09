@@ -1,6 +1,6 @@
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/core/lifo.o: \
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/core/lifo.o: \
  /home/angela/riot_workplace/RIOT/core/lifo.c \
- /home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
+ /home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
  /home/angela/riot_workplace/RIOT/core/include/lifo.h \
  /home/angela/riot_workplace/RIOT/core/include/log.h \
  /home/angela/riot_workplace/RIOT/cpu/esp_common/include/log_module.h \
@@ -44,7 +44,7 @@
  /home/angela/riot_workplace/RIOT/cpu/esp_common/include/cpu_conf_common.h \
  /home/angela/riot_workplace/RIOT/cpu/esp_common/include/xtensa_conf.h
 
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
 
 /home/angela/riot_workplace/RIOT/core/include/lifo.h:
 

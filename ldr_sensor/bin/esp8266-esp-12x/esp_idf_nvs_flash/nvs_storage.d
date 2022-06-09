@@ -1,6 +1,6 @@
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/esp_idf_nvs_flash/nvs_storage.o: \
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/esp_idf_nvs_flash/nvs_storage.o: \
  /home/angela/riot_workplace/RIOT/cpu/esp8266/vendor/esp-idf/nvs_flash/src/nvs_storage.cpp \
- /home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
+ /home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
  /home/angela/riot_workplace/RIOT/cpu/esp8266/vendor/esp-idf/nvs_flash/src/nvs_storage.hpp \
  /home/angela/riot_workplace/esp/xtensa-esp8266-elf/xtensa-esp8266-elf/include/c++/5.2.0/memory \
  /home/angela/riot_workplace/esp/xtensa-esp8266-elf/xtensa-esp8266-elf/include/c++/5.2.0/bits/stl_algobase.h \
@@ -149,7 +149,7 @@
  /home/angela/riot_workplace/esp/xtensa-esp8266-elf/xtensa-esp8266-elf/include/c++/5.2.0/bits/stl_list.h \
  /home/angela/riot_workplace/esp/xtensa-esp8266-elf/xtensa-esp8266-elf/include/c++/5.2.0/bits/list.tcc
 
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
 
 /home/angela/riot_workplace/RIOT/cpu/esp8266/vendor/esp-idf/nvs_flash/src/nvs_storage.hpp:
 

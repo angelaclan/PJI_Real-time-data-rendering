@@ -1,6 +1,6 @@
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/esp_idf_esp8266/event_loop.o: \
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/esp_idf_esp8266/event_loop.o: \
  /home/angela/riot_workplace/RIOT/cpu/esp8266/vendor/esp-idf/esp8266/source/event_loop.c \
- /home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
+ /home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
  /home/angela/riot_workplace/esp/xtensa-esp8266-elf/lib/gcc/xtensa-esp8266-elf/5.2.0/include/stddef.h \
  /home/angela/riot_workplace/esp/xtensa-esp8266-elf/xtensa-esp8266-elf/include/stdlib.h \
  /home/angela/riot_workplace/esp/xtensa-esp8266-elf/xtensa-esp8266-elf/include/machine/ieeefp.h \
@@ -89,7 +89,7 @@
  /home/angela/riot_workplace/RIOT/cpu/esp_common/include/esp_common_log.h \
  /home/angela/riot_workplace/RIOT/core/include/macros/xtstr.h
 
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
 
 /home/angela/riot_workplace/esp/xtensa-esp8266-elf/lib/gcc/xtensa-esp8266-elf/5.2.0/include/stddef.h:
 

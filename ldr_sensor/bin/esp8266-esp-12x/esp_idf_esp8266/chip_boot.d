@@ -1,6 +1,6 @@
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/esp_idf_esp8266/chip_boot.o: \
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/esp_idf_esp8266/chip_boot.o: \
  /home/angela/riot_workplace/RIOT/cpu/esp8266/vendor/esp-idf/esp8266/source/chip_boot.c \
- /home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
+ /home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
  /home/angela/riot_workplace/RIOT/cpu/esp8266/vendor/esp-idf/sdkconfig.h \
  /home/angela/riot_workplace/RIOT/cpu/esp8266/include/sdk_conf.h \
  /home/angela/riot_workplace/RIOT/boards/esp8266-esp-12x/include/board.h \
@@ -54,7 +54,7 @@
  /home/angela/riot_workplace/esp/ESP8266_RTOS_SDK/components/spi_flash/include/esp_flash_data_types.h \
  /home/angela/riot_workplace/esp/ESP8266_RTOS_SDK/components/spi_flash/include/spi_flash.h
 
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
 
 /home/angela/riot_workplace/RIOT/cpu/esp8266/vendor/esp-idf/sdkconfig.h:
 

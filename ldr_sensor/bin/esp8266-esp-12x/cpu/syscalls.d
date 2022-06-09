@@ -1,6 +1,6 @@
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/cpu/syscalls.o: \
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/cpu/syscalls.o: \
  /home/angela/riot_workplace/RIOT/cpu/esp8266/syscalls.c \
- /home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
+ /home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
  /home/angela/riot_workplace/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_attr.h \
  /home/angela/riot_workplace/RIOT/cpu/esp_common/include/esp_common.h \
  /home/angela/riot_workplace/RIOT/core/include/log.h \
@@ -61,7 +61,7 @@
  /home/angela/riot_workplace/RIOT/cpu/esp_common/include/cpu_conf_common.h \
  /home/angela/riot_workplace/RIOT/cpu/esp_common/include/xtensa_conf.h
 
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
 
 /home/angela/riot_workplace/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_attr.h:
 

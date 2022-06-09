@@ -1,6 +1,6 @@
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/esp_idf_wpa_supplicant_crypto/dh_groups.o: \
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/esp_idf_wpa_supplicant_crypto/dh_groups.o: \
  /home/angela/riot_workplace/RIOT/cpu/esp8266/vendor/esp-idf/wpa_supplicant/src/crypto/dh_groups.c \
- /home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
+ /home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
  /home/angela/riot_workplace/RIOT/cpu/esp8266/vendor/esp-idf/wpa_supplicant/include/crypto/includes.h \
  /home/angela/riot_workplace/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/angela/riot_workplace/esp/xtensa-esp8266-elf/lib/gcc/xtensa-esp8266-elf/5.2.0/include/stdint.h \
@@ -86,7 +86,7 @@
  /home/angela/riot_workplace/RIOT/cpu/esp8266/vendor/esp-idf/log/include/esp_log.h \
  /home/angela/riot_workplace/RIOT/cpu/esp_common/include/esp_common.h
 
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
 
 /home/angela/riot_workplace/RIOT/cpu/esp8266/vendor/esp-idf/wpa_supplicant/include/crypto/includes.h:
 

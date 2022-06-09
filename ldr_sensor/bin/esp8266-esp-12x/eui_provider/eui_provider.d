@@ -1,6 +1,6 @@
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/eui_provider/eui_provider.o: \
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/eui_provider/eui_provider.o: \
  /home/angela/riot_workplace/RIOT/sys/net/link_layer/eui_provider/eui_provider.c \
- /home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
+ /home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
  /home/angela/riot_workplace/RIOT/sys/net/link_layer/eui_provider/include/eui48_provider_params.h \
  /home/angela/riot_workplace/RIOT/sys/include/net/eui_provider.h \
  /home/angela/riot_workplace/RIOT/sys/include/net/eui48.h \
@@ -38,7 +38,7 @@
  /home/angela/riot_workplace/RIOT/sys/include/net/eui48.h \
  /home/angela/riot_workplace/RIOT/sys/include/net/eui64.h
 
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
 
 /home/angela/riot_workplace/RIOT/sys/net/link_layer/eui_provider/include/eui48_provider_params.h:
 

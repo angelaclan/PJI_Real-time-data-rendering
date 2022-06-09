@@ -1,7 +1,7 @@
 
 #include "arduino_board.h"
 #include "stdlib.h"
-#include "/home/angela/riot_workplace/RIOT/examples/hello-world/udp.c"
+#include "/home/angela/riot_workplace/RIOT/examples/ldr_sensor/udp.c"
 
 //extern void send(char *addr_str, char *port_str, char *data, unsigned int num, unsigned int delay);
                  
@@ -25,7 +25,7 @@ void loop() {
   sprintf(str, "Value of LDR = %d", ldrStatus);
   //ldrValue = itoa(ldrStatus, ldrValue, 8*sizeof(int));
   
-  send((char*)"fe80::dae9:e933:bf4:48b2", (char *)"8808", (char *)str, num, dl);
+  send((char*)"fe80::966e:ef54:85b6:2da0", (char *)"8808", (char *)str, num, dl);
 
 
   delay(2000);

@@ -1,6 +1,6 @@
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/esp_idf_nvs_flash/nvs_api.o: \
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/esp_idf_nvs_flash/nvs_api.o: \
  /home/angela/riot_workplace/RIOT/cpu/esp8266/vendor/esp-idf/nvs_flash/src/nvs_api.cpp \
- /home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
+ /home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h \
  /home/angela/riot_workplace/RIOT/cpu/esp8266/vendor/esp-idf/nvs_flash/src/nvs.hpp \
  /home/angela/riot_workplace/esp/xtensa-esp8266-elf/xtensa-esp8266-elf/include/c++/5.2.0/memory \
  /home/angela/riot_workplace/esp/xtensa-esp8266-elf/xtensa-esp8266-elf/include/c++/5.2.0/bits/stl_algobase.h \
@@ -187,7 +187,7 @@
  /home/angela/riot_workplace/RIOT/cpu/esp_common/include/esp_common_log.h \
  /home/angela/riot_workplace/RIOT/core/include/macros/xtstr.h
 
-/home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/bin/esp8266-esp-12x/riotbuild/riotbuild.h:
 
 /home/angela/riot_workplace/RIOT/cpu/esp8266/vendor/esp-idf/nvs_flash/src/nvs.hpp:
 

@@ -1,6 +1,6 @@
 /* Generated file do not edit */
-#define ESP_WIFI_SSID "an"
-#define ESP_WIFI_PASS "87881942"
+#define ESP_WIFI_SSID "LouisaCoffee"
+#define ESP_WIFI_PASS "23458613"
 #define ESP_WIFI_MAX_CONN 2
 #define DEVELHELP 1
 #define SCHED_PRIO_LEVELS 32
