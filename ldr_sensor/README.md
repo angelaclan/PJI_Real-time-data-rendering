@@ -32,11 +32,9 @@ and modify the sketch file, use this ipv6 as the first param in send()
 `socat UDP6-RECVFROM:8808,fork UDP4-SENDTO:localhost:8809`
 
 #### Hardware setting
-![alt text](https://github.com/angelaclan/
-PJI_Real-time-data-rendering/blob/master/ldr_sensor.jpg?raw=true)
+![hardware](https://github.com/angelaclan/PJI_Real-time-data-rendering/blob/master/ldr_sensor/ldr_sensor.jpg "hardware")
 
 #### Result on Pharo Image
-![alt text](https://github.com/angelaclan/
-PJI_Real-time-data-rendering/blob/mastervalueToPhato.png?raw=true)
+![result](https://github.com/angelaclan/PJI_Real-time-data-rendering/blob/master/ldr_sensor/valueToPharo.png "result")
 
 
