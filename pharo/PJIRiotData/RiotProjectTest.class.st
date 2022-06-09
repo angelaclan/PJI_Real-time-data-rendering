@@ -17,3 +17,19 @@ buffer := String new: 256.
 socket waitForData.
 result := socket receiveUDPDataInto: buffer. 
 ]
+
+{ #category : #test }
+RiotProjectTest >> testRestructDataReceivedFromEsp8266 [
+
+"creat socket, bind port, receive datagram, and restruct it "
+
+| socket stream pack|
+
+socket := Socket newUDP.
+socket setPort:8809.
+stream := SocketStream on: socket .
+pack := stream upToAll: ';'.
+('|' split: pack ) do: [ : p |
+	(':' split: p) traceCr
+ ]
+]
