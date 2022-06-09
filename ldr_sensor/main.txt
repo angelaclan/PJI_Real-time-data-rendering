@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include "periph/gpio.h" 
+#define ldrPin GPIO_PIN(1,0)
+int main(void)
+{
+   gpio_init (ldrPin, GPIO_IN);
+   while(1) {
+    puts("Light");
+	int ldrStatus = gpio_read(ldrPin);
+    printf(" %d MCU.\n", ldrStatus);
+    
+    }
+    return 0;
+}
