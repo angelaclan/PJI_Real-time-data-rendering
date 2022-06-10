@@ -35,6 +35,6 @@ and modify the sketch file, use this ipv6 as the first param in send()
 ![hardware](https://github.com/angelaclan/PJI_Real-time-data-rendering/blob/master/ldr_sensor/ldr_sensor.jpg "hardware")
 
 #### Result on Pharo Image
-![result](https://github.com/angelaclan/PJI_Real-time-data-rendering/blob/master/ldr_sensor/valueToPharo.png "result")
+![result](https://github.com/angelaclan/PJI_Real-time-data-rendering/blob/master/ldr_sensor/struct.png "result")
 
 
