@@ -8,7 +8,8 @@
                  
 int ldrPin = ADC_LINE(0);
 int ldrStatus = 0;
-char str[80];
+char name[20] = "boardphotoresistor\n";
+char str[50];
 
 void setup() {
   Serial.begin(9600);
@@ -17,15 +18,11 @@ void setup() {
 void loop() {
   uint32_t num = 1;
   uint32_t dl = 1000000;
-
-
-  Serial.println( "hola" ); 
   ldrStatus = analogRead(ldrPin);
   Serial.println(ldrStatus);
-  sprintf(str, "Value of LDR = %d", ldrStatus);
-  //ldrValue = itoa(ldrStatus, ldrValue, 8*sizeof(int));
-  
-  send((char*)"fe80::966e:ef54:85b6:2da0", (char *)"8808", (char *)str, num, dl);
+  sprintf(str, "board:1|%s:%d;", name, ldrStatus);
+ 
+  send((char*)"fe80::dae9:e933:bf4:48b2", (char *)"8808", (char *)str, num, dl);
 
 
   delay(2000);
