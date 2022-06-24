@@ -133,6 +133,9 @@
  /home/angela/riot_workplace/RIOT/sys/include/net/gnrc/ipv6/nib/ft.h \
  /home/angela/riot_workplace/RIOT/sys/include/net/gnrc/ipv6/nib/nc.h \
  /home/angela/riot_workplace/RIOT/sys/include/net/gnrc/ipv6/nib/pl.h \
+ /home/angela/riot_workplace/RIOT/sys/include/net/gnrc/sixlowpan/nd.h \
+ /home/angela/riot_workplace/RIOT/sys/include/net/gnrc/sixlowpan/config.h \
+ /home/angela/riot_workplace/RIOT/sys/include/net/sixlowpan/nd.h \
  /home/angela/riot_workplace/RIOT/sys/include/net/gnrc/ndp.h \
  /home/angela/riot_workplace/RIOT/core/include/debug.h
 
@@ -401,6 +404,12 @@
 /home/angela/riot_workplace/RIOT/sys/include/net/gnrc/ipv6/nib/nc.h:
 
 /home/angela/riot_workplace/RIOT/sys/include/net/gnrc/ipv6/nib/pl.h:
+
+/home/angela/riot_workplace/RIOT/sys/include/net/gnrc/sixlowpan/nd.h:
+
+/home/angela/riot_workplace/RIOT/sys/include/net/gnrc/sixlowpan/config.h:
+
+/home/angela/riot_workplace/RIOT/sys/include/net/sixlowpan/nd.h:
 
 /home/angela/riot_workplace/RIOT/sys/include/net/gnrc/ndp.h:
 

@@ -51,7 +51,7 @@
  /home/angela/riot_workplace/RIOT/boards/common/esp8266/include/board_modules.h \
  /home/angela/riot_workplace/esp/xtensa-esp8266-elf/xtensa-esp8266-elf/include/stdlib.h \
  /home/angela/riot_workplace/esp/xtensa-esp8266-elf/xtensa-esp8266-elf/include/machine/stdlib.h \
- /home/angela/riot_workplace/RIOT/examples/hello-world/udp.c \
+ /home/angela/riot_workplace/RIOT/examples/ldr_sensor/udp.c \
  /home/angela/riot_workplace/esp/xtensa-esp8266-elf/xtensa-esp8266-elf/include/inttypes.h \
  /home/angela/riot_workplace/RIOT/sys/include/net/gnrc.h \
  /home/angela/riot_workplace/RIOT/sys/include/net/netopt.h \
@@ -244,7 +244,7 @@
 
 /home/angela/riot_workplace/esp/xtensa-esp8266-elf/xtensa-esp8266-elf/include/machine/stdlib.h:
 
-/home/angela/riot_workplace/RIOT/examples/hello-world/udp.c:
+/home/angela/riot_workplace/RIOT/examples/ldr_sensor/udp.c:
 
 /home/angela/riot_workplace/esp/xtensa-esp8266-elf/xtensa-esp8266-elf/include/inttypes.h:
 

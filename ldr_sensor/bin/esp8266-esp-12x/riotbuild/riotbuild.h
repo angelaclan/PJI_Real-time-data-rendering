@@ -1,12 +1,16 @@
 /* Generated file do not edit */
-#define ESP_WIFI_SSID "LouisaCoffee"
-#define ESP_WIFI_PASS "23458613"
+#define BOARD_ID 1
+#define SERVICE_IP "fe80::dae9:e933:bf4:48b2"
+#define NEXT_IP "fe80::dae9:e933:bf4:48b2"
+#define IFACE 10
+#define ESP_WIFI_SSID "an"
+#define ESP_WIFI_PASS "87881942"
 #define ESP_WIFI_MAX_CONN 2
 #define DEVELHELP 1
 #define SCHED_PRIO_LEVELS 32
 #define FLASH_MODE_DOUT 1
 #define __ESP_FILE__ __FILE__
-#define RIOT_APPLICATION "hello-world"
+#define RIOT_APPLICATION "ldr_sensor"
 #define BOARD_ESP8266_ESP_12X "esp8266-esp-12x"
 #define RIOT_BOARD BOARD_ESP8266_ESP_12X
 #define CPU_ESP8266 "esp8266"
@@ -59,6 +63,8 @@
 #define MODULE_GNRC_IPV6 1
 #define MODULE_GNRC_IPV6_HDR 1
 #define MODULE_GNRC_IPV6_NIB 1
+#define MODULE_GNRC_IPV6_NIB_6LN 1
+#define MODULE_GNRC_IPV6_NIB_6LR 1
 #define MODULE_GNRC_IPV6_NIB_ROUTER 1
 #define MODULE_GNRC_IPV6_ROUTER 1
 #define MODULE_GNRC_IPV6_ROUTER_DEFAULT 1
@@ -79,6 +85,7 @@
 #define MODULE_GNRC_PKTBUF_STATIC 1
 #define MODULE_GNRC_PKTDUMP 1
 #define MODULE_GNRC_RPL 1
+#define MODULE_GNRC_SIXLOWPAN_ND 1
 #define MODULE_GNRC_UDP 1
 #define MODULE_ICMPV6 1
 #define MODULE_INET_CSUM 1

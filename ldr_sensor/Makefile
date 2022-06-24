@@ -14,6 +14,8 @@ DEVELHELP ?= 1
 
 # Change this to 0 show compiler invocation lines by default:
 QUIET ?= 1
+# Activate auto-configure IPv6 address for interface 10
+# CONFIG_GNRC_IPV6_NIB_SLAAC=1
 
 USEMODULE += esp_wifi
 USEMODULE += arduino
@@ -21,16 +23,18 @@ USEMODULE += arduino
 #USEMODULE += gnrc_sock							# HelloWorldExample
 #USEMODULE += gnrc_sock_check_reuse				# HelloWorldExample	
 #USEMODULE += gnrc_sock_udp						# HelloWorldExample
-#USEMODULE += gnrc_ipv6							# HelloWorldExample
+USEMODULE += gnrc_ipv6							# HelloWorldExample
 
 
+USEMODULE += gnrc_ipv6_nib_6lr
+USEMODULE += gnrc_ipv6_nib_6ln
 
 USEMODULE += gnrc_netdev_default
 USEMODULE += auto_init_gnrc_netif
 # Activate ICMPv6 error messages
 USEMODULE += gnrc_icmpv6_error
 # Specify the mandatory networking modules for IPv6 and UDP
-USEMODULE += gnrc_ipv6_router_default
+USEMODULE += gnrc_ipv6_router_default 
 USEMODULE += gnrc_udp
 # Add a routing protocol
 USEMODULE += gnrc_rpl

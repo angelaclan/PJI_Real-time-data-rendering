@@ -122,6 +122,10 @@
  /home/angela/riot_workplace/RIOT/sys/include/utlist.h \
  /home/angela/riot_workplace/RIOT/sys/include/net/gnrc/ipv6/nib/pl.h \
  /home/angela/riot_workplace/RIOT/sys/include/net/icmpv6.h \
+ /home/angela/riot_workplace/RIOT/sys/include/net/gnrc/sixlowpan/nd.h \
+ /home/angela/riot_workplace/RIOT/sys/include/net/gnrc/sixlowpan/config.h \
+ /home/angela/riot_workplace/RIOT/sys/include/timex.h \
+ /home/angela/riot_workplace/RIOT/sys/include/net/sixlowpan/nd.h \
  /home/angela/riot_workplace/RIOT/sys/net/gnrc/network_layer/ipv6/nib/_nib-arsm.h \
  /home/angela/riot_workplace/RIOT/sys/net/gnrc/network_layer/ipv6/nib/_nib-internal.h \
  /home/angela/riot_workplace/RIOT/sys/include/bitfield.h \
@@ -133,14 +137,12 @@
  /home/angela/riot_workplace/RIOT/sys/include/net/ipv6/ext/frag.h \
  /home/angela/riot_workplace/RIOT/sys/include/net/ipv6/ext/rh.h \
  /home/angela/riot_workplace/RIOT/sys/include/net/gnrc/ipv6/ext.h \
- /home/angela/riot_workplace/RIOT/sys/include/timex.h \
  /home/angela/riot_workplace/RIOT/sys/include/net/gnrc/ipv6/hdr.h \
  /home/angela/riot_workplace/RIOT/sys/include/net/gnrc/pktqueue.h \
  /home/angela/riot_workplace/RIOT/sys/include/net/gnrc/sixlowpan/ctx.h \
  /home/angela/riot_workplace/RIOT/sys/include/random.h \
  /home/angela/riot_workplace/RIOT/sys/net/gnrc/network_layer/ipv6/nib/_nib-router.h \
  /home/angela/riot_workplace/RIOT/sys/net/gnrc/network_layer/ipv6/nib/_nib-6lr.h \
- /home/angela/riot_workplace/RIOT/sys/include/net/sixlowpan/nd.h \
  /home/angela/riot_workplace/RIOT/sys/net/gnrc/network_layer/ipv6/nib/_nib-6ln.h \
  /home/angela/riot_workplace/RIOT/core/include/debug.h
 
@@ -388,6 +390,14 @@
 
 /home/angela/riot_workplace/RIOT/sys/include/net/icmpv6.h:
 
+/home/angela/riot_workplace/RIOT/sys/include/net/gnrc/sixlowpan/nd.h:
+
+/home/angela/riot_workplace/RIOT/sys/include/net/gnrc/sixlowpan/config.h:
+
+/home/angela/riot_workplace/RIOT/sys/include/timex.h:
+
+/home/angela/riot_workplace/RIOT/sys/include/net/sixlowpan/nd.h:
+
 /home/angela/riot_workplace/RIOT/sys/net/gnrc/network_layer/ipv6/nib/_nib-arsm.h:
 
 /home/angela/riot_workplace/RIOT/sys/net/gnrc/network_layer/ipv6/nib/_nib-internal.h:
@@ -410,8 +420,6 @@
 
 /home/angela/riot_workplace/RIOT/sys/include/net/gnrc/ipv6/ext.h:
 
-/home/angela/riot_workplace/RIOT/sys/include/timex.h:
-
 /home/angela/riot_workplace/RIOT/sys/include/net/gnrc/ipv6/hdr.h:
 
 /home/angela/riot_workplace/RIOT/sys/include/net/gnrc/pktqueue.h:
@@ -423,8 +431,6 @@
 /home/angela/riot_workplace/RIOT/sys/net/gnrc/network_layer/ipv6/nib/_nib-router.h:
 
 /home/angela/riot_workplace/RIOT/sys/net/gnrc/network_layer/ipv6/nib/_nib-6lr.h:
-
-/home/angela/riot_workplace/RIOT/sys/include/net/sixlowpan/nd.h:
 
 /home/angela/riot_workplace/RIOT/sys/net/gnrc/network_layer/ipv6/nib/_nib-6ln.h:
 
