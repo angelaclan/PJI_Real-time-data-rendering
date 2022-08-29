@@ -37,3 +37,5 @@ and modify the sketch file, use this ipv6 as the first param in send()
 #### Result on Pharo Image
 ![result](https://github.com/angelaclan/PJI_Real-time-data-rendering/blob/master/ldr_sensor/struct.png "result")
 
+#### Video
+[iOT project with RIOT application and Pharo](https://www.youtube.com/watch?v=yFcoatBqMYU "iOT project with RIOT application and Pharo")
