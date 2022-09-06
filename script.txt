@@ -4,14 +4,17 @@ export PATH="$HOME/riot_workplace/esp/xtensa-esp8266-elf/bin:$PATH"
 export ESP8266_RTOS_SDK_DIR=$HOME/riot_workplace/esp/ESP8266_RTOS_SDK
 
 #Generic build and excute :
-make BOARD=esp8266-esp-12x PROGRAMMER_SPEED=9600
+BOARD=esp8266-esp-12x PROGRAMMER_SPEED=9600 PROG_BAUD=9600 make
 **press reset just before flashing**
 make term BOARD=esp8266-esp-12x
 
 #Build and excute for gnrc networking :
 make
-CFLAGS='-DESP_WIFI_SSID=\"AndroidAPE507\" -DESP_WIFI_PASS=\"msgs1234\" -DESP_WIFI_MAX_CONN=2'  make flash
+CFLAGS='-DESP_WIFI_SSID=\"OPPO A76\" -DESP_WIFI_PASS=\"k25ag2pn\" -DESP_WIFI_MAX_CONN=2'  make flash
 make term
+
+#Build for ldr_sensor
+PROGRAMMER_SPEED=9600 PROG_BAUD=9600 CFLAGS='-DCONFIG_GNRC_IPV6_NIB_SLAAC=1 -DESP_WIFI_SSID=\"OPPO\ A76\" -DESP_WIFI_PASS=\"k25ag2pn\" -DESP_WIFI_MAX_CONN=5 -DBOARD_ID=3 -DSERVICE_IP=\"fe80::2a8e:7650:9f9:e8cb\"' make flash
 
 #Ping to RIOT from Linux console :
 ping fe80::ae0b:fbff:fed6:d60c%wlp2s0
@@ -20,7 +23,6 @@ nc -6uv fe80::ae0b:fbff:fed6:d60c%wlp2s0 8808
 #From RIOT msg to Linux :
 udp server start 8808
 udp send fe80::8ed0:a49:6177:fa7f 8808 testmessage
-
 
 #Install socat :
 sudo apt-get install socat
@@ -33,6 +35,10 @@ redshift -x
 pgrep redshift | xargs -n1 kill -9
 
 
+recording:
+ffmpeg -video_size 1024x767 -framerate 25 -f x11grab -i :0.0+0,0 -f alsa -ac 2 -i default videoname.mkv
+
+
 
 
 /home/angela/riot_workplace/RIOT/dist/tools/esptool/esptool.py 
@@ -42,7 +48,7 @@ pgrep redshift | xargs -n1 kill -9
 /home/angela/riot_workplace/RIOT/examples/hello-world/bin/esp8266-esp-12x/hello-world.elf.bin
 
 
-> nib route help
+> nib route help (network interface box)
 2022-05-26 17:09:56,971 #  nib route help
 2022-05-26 17:09:56,974 # usage: nib route [show|add|del|help]
 2022-05-26 17:09:56,982 #        nib route add <iface> <prefix>[/<prefix_len>] <next_hop> [<ltime in sec>]
@@ -50,8 +56,3 @@ pgrep redshift | xargs -n1 kill -9
 2022-05-26 17:09:56,990 #        nib route show [iface]
 > 
 
-| socket buffer result |
-socket := Socket newUDP setPort: self 8808; yourself.
-buffer := String new: 256.
-socket waitForData.
-result := socket receiveUDPDataInto: buffer.
