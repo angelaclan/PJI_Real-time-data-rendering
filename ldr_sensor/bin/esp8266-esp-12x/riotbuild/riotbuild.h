@@ -1,11 +1,10 @@
 /* Generated file do not edit */
-#define BOARD_ID 1
-#define SERVICE_IP "fe80::dae9:e933:bf4:48b2"
-#define NEXT_IP "fe80::dae9:e933:bf4:48b2"
-#define IFACE 10
-#define ESP_WIFI_SSID "an"
-#define ESP_WIFI_PASS "87881942"
-#define ESP_WIFI_MAX_CONN 2
+#define CONFIG_GNRC_IPV6_NIB_SLAAC 1
+#define ESP_WIFI_SSID "OPPO A76"
+#define ESP_WIFI_PASS "k25ag2pn"
+#define ESP_WIFI_MAX_CONN 4
+#define BOARD_ID 4
+#define SERVICE_IP "fe80::2a8e:7650:9f9:e8cb"
 #define DEVELHELP 1
 #define SCHED_PRIO_LEVELS 32
 #define FLASH_MODE_DOUT 1

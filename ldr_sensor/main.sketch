@@ -74,10 +74,10 @@ void loop() {
   uint32_t num = 1;
   uint32_t dl = 1000000;
   ldrStatus = analogRead(ldrPin);
-
+  
   sprintf(str, "\{\"board\":%d,\"%s\":%d};",BOARD_ID, name, ldrStatus);
   
   // udp send commmand absorbed as a C function
   send((char*)SERVICE_IP, (char *)"8808", (char *)str, num, dl);
-	
+  
 }

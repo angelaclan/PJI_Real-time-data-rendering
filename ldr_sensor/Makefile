@@ -14,8 +14,6 @@ DEVELHELP ?= 1
 
 # Change this to 0 show compiler invocation lines by default:
 QUIET ?= 1
-# Activate auto-configure IPv6 address for interface 10
-# CONFIG_GNRC_IPV6_NIB_SLAAC=1
 
 USEMODULE += esp_wifi
 USEMODULE += arduino

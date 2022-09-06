@@ -1,6 +1,5 @@
 #include "arduino.hpp"
 #include "board.h"
-
 #include "arduino_board.h"
 #include "stdlib.h"
 #include "/home/angela/riot_workplace/RIOT/examples/ldr_sensor/udp.c"
@@ -23,12 +22,15 @@
    #define IFACE 10
 #endif
 
-
-
+#ifndef NODE_IP
+	#define NODE_IP "node ip must be defined"
+#endif
 
 
 //extern void send(char *addr_str, char *port_str, char *data, unsigned int num, unsigned int delay);
 // int gnrc_ipv6_nib_ft_add(const ipv6_addr_t * dst, unsigned dst_len, const ipv6_addr_t * next_hop, unsigned iface, uint16_t lifetime)
+// static int _netif_add(char *cmd_name, netif_t *iface, int argc, char **argv)
+// example : _netif_add(argv[0], iface, argc - 3, argv + 3);
 
                  
                  
@@ -61,9 +63,11 @@ void setup() {
   unsigned pfx_len = ipv6_addr_split_prefix((char*)SERVICE_IP);
   uint16_t ltime = 0;
         
-
   Serial.println("Setting up ADHOC Route");
   gnrc_ipv6_nib_ft_add(&pfx, pfx_len, &next_hop, IFACE, ltime);
+  
+  // config board ip
+  _netif_add("ifconfig", 10, 1, NODE_IP);
 
   #endif
   
@@ -72,16 +76,12 @@ void loop() {
   uint32_t num = 1;
   uint32_t dl = 1000000;
   ldrStatus = analogRead(ldrPin);
-
-  sprintf(str, "{\"board\":%d,\"%s\":%d};",BOARD_ID, name, ldrStatus);
+  
+  sprintf(str, "\{\"board\":%d,\"%s\":%d};",BOARD_ID, name, ldrStatus);
   
   // udp send commmand absorbed as a C function
+  send((char*)SERVICE_IP, (char *)"8808", (char *)str, num, dl);
   
-  send((char*)"fe80::dae9:e933:bf4:48b2", (char *)"8808", (char *)str, num, dl);
-   
-  
-
-  delay(2000);
 }
 
 int main(void)
